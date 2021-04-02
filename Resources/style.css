@@ -1,13 +1,15 @@
 .leftimage {
-    width: 300px ;
-    height: 300px ;
+    width: 450px ;
+    height: 350px ;
     float: left; 
 }
 
 .rightimage { 
 
-    width: 200px ;
-    height: 200px;
+    width: 175px ;
+    height: 175px;
+    float: right;
+    display: block;
 }
 .comparison {
     width:450px; 
@@ -27,7 +29,7 @@
     color: black !important;
     padding: 5px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
     .navchange{
     background-color: teal;
     color: white !important; }}
