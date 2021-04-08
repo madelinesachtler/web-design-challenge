@@ -11,6 +11,10 @@
     float: right;
     display: block;
 }
+.header {
+    padding: 15px; 
+
+}
 .comparison {
     width:450px; 
     height: 450px; 
@@ -28,6 +32,11 @@
     background-color: white;
     color: black !important;
     padding: 5px;
+}
+.navbar {
+    
+    background: teal
+
 }
 @media only screen and (max-width: 600px) {
     .navchange{
